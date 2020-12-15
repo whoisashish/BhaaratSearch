@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1024px) {
+    .wrapper .headerContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerContent .mainSection .searchContainer form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainResultsSection .resultsCount {
+        margin-left: 20px;
+    }
+
+    .mainResultsSection .siteResults {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .mainSection .searchContainer .searchBox1 {
+        width: 95%;
+    }
+
+    .tabsContainer {
+        margin-left: 20px;
+    }
+    
+    .resultContainer{
+        width: 100%;
+    }
+
+    .resultContainer .description{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    .gridItem{
+        width: 100%;
+    }
+    
+    .gridItem img {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .gridItem .details{
+         visibility: visible;
+    }
+}
